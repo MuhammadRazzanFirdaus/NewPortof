@@ -11,8 +11,8 @@ export const SOCIAL_INFO = [
   { label: 'Email', value: 'muhammadrazzan1329@gmail.com' },
   { label: 'WhatsApp', value: '+62 895-3213-84487' },
   { label: 'Instagram', value: '@rzann4e' },
-  { label: 'GitHub', value: 'github.com/MuhammadRazzanFirdaus' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/muhammad-razzan-firdaus-92a09a331/' },
+  { label: 'GitHub', value: 'MuhammadRazzanFirdaus' },
+  { label: 'LinkedIn', value: 'Muhammad Razzan Firdaus' },
 ];
 
 export const HARD_SKILLS = [
