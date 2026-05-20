@@ -77,9 +77,6 @@ razzan-portfolio/
     ├── data.js                 ← Semua data statis (skills, galeri, dll)
     ├── emailjsConfig.js        ← ⚠ WAJIB DIISI untuk kirim email
     │
-    ├── hooks/
-    │   └── useSpinBorder.js    ← Custom hook: animasi border SVG
-    │
     └── components/
         ├── Navbar.jsx          ← Navigasi fixed + mobile drawer
         ├── ThemeToggle.jsx     ← Tombol toggle dark/light

@@ -1,4 +1,3 @@
-
 export const PERSONAL_INFO = [
   { label: 'Nama Lengkap', value: 'Muhammad Razzan Firdaus' },
   { label: 'Tempat, Tgl Lahir', value: 'Bogor, 13 Juli 2009' },
@@ -77,7 +76,7 @@ export const GALLERY_ITEMS = [
     cat: 'project',
     wide: true,
     icon: '/trashedu.png',
-    year: '2024',
+    year: '2025',
     title: 'TrashEdu (Trash Educate)',
     desc: 'Platform yang membantu menyebarluaskan informasi dan pembelajaran mengenai pentingnya mengelola sampah melalui platform yang menyenangkan karena dipadukan dengan sedikit gamifikasi',
     stack: ['Laravel', 'MySQL', 'Bootstrap'],
