@@ -95,7 +95,7 @@ export default function ContactSection() {
                 type="text"
                 id="from_name"
                 name="from_name"
-                placeholder="Asep Kusnandar"
+                placeholder="Masukan Nama Anda"
                 required
                 autoComplete="name"
               />
@@ -107,13 +107,12 @@ export default function ContactSection() {
                 type="email"
                 id="from_email"
                 name="from_email"
-                placeholder="jamila@example.com"
+                placeholder="emailanda@example.com"
                 required
                 autoComplete="email"
               />
             </div>
 
-            {/* Keperluan */}
             <div className="form-group">
               <label htmlFor="keperluan">Keperluan</label>
               <select id="keperluan" name="keperluan">
