@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import GalleryCard from './GalleryCard';
-import CertModal from './CertModal';
+import GalleryCard from '../tabs_galery/GalleryCard';
+import CertModal from '../tabs_galery/CertModal';
 import { GALLERY_ITEMS } from '../data';
 
 const FILTERS = [

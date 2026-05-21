@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import TabProfil from './TabProfil';
-import TabSkill from './TabSkill';
-import TabPendidikan from './TabPendidikan';
-import TabGaleri from './TabGaleri';
+import TabProfil from './tabs/TabProfil';
+import TabSkill from './tabs/TabSkill';
+import TabPendidikan from './tabs/TabPendidikan';
+import TabGaleri from './tabs/TabGaleri';
 
 const TABS = [
   { key: 'profil', label: 'Profil' },
@@ -11,10 +11,6 @@ const TABS = [
   { key: 'galeri', label: 'Galeri' },
 ];
 
-/**
- * TabsSection — section navigasi tab utama
- * Menggunakan role="tablist" / role="tab" / role="tabpanel" (WAI-ARIA)
- */
 export default function TabsSection() {
   const [activeTab, setActiveTab] = useState('profil');
 

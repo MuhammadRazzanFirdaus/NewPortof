@@ -1,5 +1,5 @@
-import CardWrap from './CardWrap';
-import { PERSONAL_INFO, SOCIAL_INFO } from '../data';
+import CardWrap from '../tabs_profile/CardWrap';
+import { PERSONAL_INFO, SOCIAL_INFO } from '../../data';
 
 export default function TabProfil() {
   return (

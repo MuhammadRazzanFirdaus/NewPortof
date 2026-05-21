@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { HARD_SKILLS, SOFT_SKILLS } from '../data';
+import { HARD_SKILLS, SOFT_SKILLS } from '../../data';
 
 export default function TabSkill({ active }) {
   const [bars, setBars] = useState(HARD_SKILLS.map(() => 0));
